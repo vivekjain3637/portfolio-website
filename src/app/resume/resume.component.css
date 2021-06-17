@@ -1,0 +1,61 @@
+.resume-header{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem;
+}
+
+
+.resume-section-work-experience{
+    background: #6c757d;
+    margin: 0rem 1rem 0rem 1rem;
+    color: white;
+}
+
+.work-experience-header{
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-section-title{
+    padding:16px;
+    font-size: 2rem;
+    font-style: bold;
+    font-weight: 500;
+}
+.mat-card{
+    border-color: black;
+    border: 0;
+}
+
+.Spacer{
+    padding: 2px;
+}
+
+.resume-section-skills{
+    background: #6c757d;
+    margin: 0rem 1rem 0rem 1rem;
+    color: white;
+}
+.resume-content-section{
+    margin-bottom: 2rem;
+}
+
+.skill-content{
+    display: inline;
+}
+.skill{
+    display: flex;
+}
+.skill-expertise{
+    width: 50%;
+    text-align: right;
+}
+
+.skill-title{
+    width: 50%;
+}
+
+.progress-bar{
+    background: black;
+    text-align: right;
+}

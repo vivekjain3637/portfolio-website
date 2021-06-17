@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "portfolio-website-c5509": {
+      "hosting": {
+        "portfolio-website": [
+          "portfolio-website-c5509"
+        ]
+      }
+    }
+  }
+}

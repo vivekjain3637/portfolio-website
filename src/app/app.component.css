@@ -1,0 +1,45 @@
+.header{
+    justify-content: center;
+    background-color:black;
+    color: white;
+}
+
+.motto{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    background-color:black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-link.active{
+    color: white;
+}
+
+.nav-link{
+    color: rgba(255, 255, 255, 0.63);
+}
+
+.custom-navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+  
+.custom-navbar-toggler .navbar-toggler {
+    border-color: rgb(255,255,255);
+}
+
+.navbar-toggler{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.nav-item{
+    font-size: 1.2rem;
+}

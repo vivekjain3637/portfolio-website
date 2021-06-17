@@ -1,0 +1,60 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class = "resume-header">
+    <button class="btn"><i class="fa fa-download"></i></button>
+</div>
+<div class="resume-content">
+    <div class="resume-content-section">
+        <div class="resume-section-title">Work Experience</div>
+        <mat-card class="resume-section-work-experience">
+            <mat-card-header class = "work-experience-header">
+            <div class="work-experience-title">
+                <mat-card-title>Analyst, Deutsche Bank</mat-card-title>
+            </div>
+            <div class="work-experience-time">
+                <mat-card-subtitle>2018-Present</mat-card-subtitle>
+            </div>
+            </mat-card-header>
+            <mat-card-content>
+                <ul>
+                    <li>Worked on a project which was primarily in house reporting tool . The relevant tech stack comprised of Angular 6 , Spring Boot and Oracle SQL . Was included in the design ,implementation and release of the same</li>
+                    <li>Worked on iConnex : in house ETL tool . Based on Microservices architecture and Oracle SQL/Elastic Search for ingesting, processing and loading of data</li>
+                    <li>Contributed to different Microservices as well as SPARK SQL Module for improving the performance on relatively biggerfiles</li>
+                </ul>
+            </mat-card-content>
+        </mat-card>
+        <div class="Spacer"></div>
+        <mat-card class="resume-section-work-experience">
+            <mat-card-header class = "work-experience-header">
+            <div class="work-experience-title">
+                <mat-card-title>Software Development Intern, Samsung</mat-card-title>
+            </div>
+            <div class="work-experience-time">
+                <mat-card-subtitle>Summer of 2017</mat-card-subtitle>
+            </div>
+            </mat-card-header>
+            <mat-card-content>
+                <ul>
+                    <li>The summer internship project was based on wireless
+                        communication between a user and the bot using a mobile
+                        application. The bot was able to identify obstacles on its
+                        own as well as find its path</li>
+                </ul>
+            </mat-card-content>
+        </mat-card>
+    </div>
+    <div class="resume-content-section-skills" >
+            <div class="resume-section-title">Skills</div>
+            <div class="skill-card-container" *ngFor = "let s of skills">
+                <mat-card class="resume-section-skills">
+                    <mat-card-content class=skill-content>
+                        <div class="skill">
+                        <div class="skill-title">{{s.skill}}</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar {{s.skill}}" role="progressbar" [ngStyle]="{'width.%' : s.expertise}" aria-valuenow="" aria-valuemin="0" aria-valuemax="100">{{s.expertise}}%</div>
+                        </div>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+    </div>
+</div>

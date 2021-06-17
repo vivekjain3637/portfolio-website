@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio-website';
+
+  show = false;
+  toggleClick(){
+    console.log("Changing toggle");
+    
+    this.show = !this.show;
+
+    console.log("Current state" , this.show)
+  }
 }
+
+
