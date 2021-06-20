@@ -26,7 +26,6 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
     AppRoutingModule,
     MatIconModule,
     MatCardModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule
 
   ],
